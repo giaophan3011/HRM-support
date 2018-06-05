@@ -20,8 +20,8 @@
 				 <div class="navbar-header">
 				 	<!-- we add this div with navbar-header class to have a better mobile display-->
       				<div class="navbar-brand" style="margin-left: 10px;">
-      					<h1>HRM Solution</h1>
-      					<p><i>For your own business</i></p>
+      					<h1>Hmm...</h1>
+      					<p><i>Over the last 7 days</i></p>
       				</div>
     			</div>
 			</div>	
@@ -29,10 +29,9 @@
 	</header>
 	<div class="container" style="height: 300px;">
 		<div style="padding: 20px 200px 200px 10px;">
-			<form>
-				Email <input type="text" name="Email"><br>
-				Password <input type="text" name="Password"><br>
-				<input type="submit" value="Submit">
+			<form method="post">
+			Tell me, do you want to know...
+			<input type="submit"value="enter"/>
 			</form>
 		</div>
 		

@@ -19,5 +19,16 @@ public class LoginServlet extends HttpServlet {
 		req.getRequestDispatcher("/WEB-INF/views/LoginPage.jsp").forward(req, resp);
 
 	}
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+//		String answer = req.getParameter("answer");
+//		if(answer.equals("yes")){
+		req.getRequestDispatcher("/WEB-INF/views/diary.jsp").forward(req, resp);
+//		}else{
+//		req.getRequestDispatcher("/WEB-INF/views/LoginPage.jsp").forward(req, resp);
+//
+//		}
+	}
+
 
 }
